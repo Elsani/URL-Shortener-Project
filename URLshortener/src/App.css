@@ -1,0 +1,17 @@
+.Container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.Container button {
+  margin-top: 30px;
+  padding: 15px 28px 15px 28px;
+  text-align: justify;
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(169, 66, 179);
+
+
+}
