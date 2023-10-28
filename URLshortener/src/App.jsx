@@ -22,7 +22,7 @@ function App() {
   // here we add a loader..
   const [loader, setLoader] = useState("false");
   const [input, setInput] = useState("");
-  const [items, setItems] = useState([]);
+  const [items, setItems] = useState("");
 
   const fetchData = async () => {
     try {
@@ -49,7 +49,7 @@ function App() {
 
   return (
     <Flex>
-      <Box padding="0px 20px 550px 20px" className="box1" bgcolor="lightgray">
+      <Box padding="0px 20px 615px 20px" className="box1" bgcolor="lightgray">
         <img className="svg" src={imgsvg} alt="" />
         <p>
           <b>My shortened URLs</b>

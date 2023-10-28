@@ -72,8 +72,9 @@ button:focus-visible {
 }
 
 .inputi {
-  border-radius: 1%;
-  padding: 1rem 15rem 1rem 1rem;
+  border-radius: 0%;
+  padding: 20px 0px 20px 0px;
+  margin: 0rem 8rem 1rem 0rem;
 }
 
 .Button {
